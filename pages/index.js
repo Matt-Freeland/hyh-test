@@ -1,6 +1,15 @@
 import Head from 'next/head'
+import _ from 'lodash'
+import axios from 'axios'
 
 export default function Home() {
+    axios.get('https://api.github.com/users/sonatype')
+        .then(response => console.log(response))
+
+    const a = [0,1,2,3,4,5]
+    const b = _.chunk(a, 2)
+    console.log(b)
+
   return (
     <div className="container">
       <Head>
