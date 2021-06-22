@@ -10,6 +10,10 @@ export default function Home() {
     const b = _.chunk(a, 2)
     console.log(b)
 
+    const minusTen = (n) => n-10
+    const aNull = 10
+    console.log(minusTen(aNull)
+
   return (
     <div className="container">
       <Head>
