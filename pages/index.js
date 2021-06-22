@@ -11,7 +11,7 @@ export default function Home() {
     console.log(b)
 
     const minusTen = (n) => n-10
-    const aNull = null
+    const aNull = 10
     console.log(minusTen(aNull)
 
   return (
